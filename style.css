@@ -95,13 +95,27 @@ section .title{
 .item-details img{
     width: 100%;
 }
-.number h1{
+.followers{
     display: flex;
+    padding-left: 8%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 7%;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px 3px #9a9797;
+    margin-bottom: 50px;
 }
-.number p{
-    display: flex;
+.all-followers{
+        margin: 5% 5%;
+        margin-left: 10%;
+        text-align: center;
+}
+.all-followers h1{
+    margin: 0px;
 }
 footer{
+    margin-top: 80px;
     background-color: black;
     text-align: center;
     padding: 50px;
@@ -112,5 +126,5 @@ footer span{
 }
 footer p,h3{
     color: white;
-    font-size: 25px;
+    font-size: 20px;
 }
