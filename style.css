@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+section img{
+    width: 80%;
+}
+section .text{
+    margin-top: 140px;
+}
+section h1{
+    font-size: 55px;
+    margin: 0;
+    letter-spacing: 0.5px;
+}
+section span{
+    color: #FD4F30;
+}
+section p{
+    color: #bbaeae;
+    margin-bottom: 40px;
+}
+section a{
+    text-decoration: none;
+    background-image: linear-gradient(#FD4F30,#FC7C41);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+section .first{
+    margin-bottom: 100px;
+}
+section .second img{
+    width: 70%;
+}
+.second img{
+    width: 50%;
+}
+.third{
+    background-position: url('assets/shapes/Frame\ 59.jpg');
+}
