@@ -78,6 +78,7 @@ section .title{
 }
 .item{
     display: flex;
+    margin-bottom: 100px;
 }
 .item-details{
 
@@ -93,4 +94,23 @@ section .title{
 }
 .item-details img{
     width: 100%;
+}
+.number h1{
+    display: flex;
+}
+.number p{
+    display: flex;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 50px;
+}
+footer span{
+    color: #FD4F30;
+    font-size: 25px;
+}
+footer p,h3{
+    color: white;
+    font-size: 25px;
 }
