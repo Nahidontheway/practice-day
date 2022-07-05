@@ -6,6 +6,9 @@ body{
 section{
     display: flex;
 }
+section .first{
+    background-image: url('assets/shapes/Frame\ 58.jpg');
+}
 .half-width{
     width: 50%;
     padding-left: 5%;
@@ -43,9 +46,11 @@ section .first{
 section .second img{
     width: 70%;
 }
+.second{
+    background-image: url('assets/shapes/Frame\ 59.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+}
 .second img{
     width: 50%;
-}
-.third{
-    background-position: url('assets/shapes/Frame\ 59.jpg');
 }
