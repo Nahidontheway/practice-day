@@ -3,11 +3,15 @@ body{
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-section{
+.first{
+    display: flex;
+}
+.second{
     display: flex;
 }
 section .first{
     background-image: url('assets/shapes/Frame\ 58.jpg');
+    background-size: cover;
 }
 .half-width{
     width: 50%;
@@ -50,7 +54,43 @@ section .second img{
     background-image: url('assets/shapes/Frame\ 59.jpg');
     background-repeat: no-repeat;
     width: 100%;
+    background-size: cover;
+    margin-bottom: 20px;
 }
 .second img{
     width: 50%;
+    padding-left: 25px;
+}
+.second .text{
+    margin-left: 100px;
+}
+.second h1{
+    margin-bottom: 10px;
+}
+.second p{
+    width: 70%;
+    margin-bottom: 70px;
+}
+section .title{
+    text-align: center;
+    width: 43%;
+    margin: 0 auto;
+}
+.item{
+    display: flex;
+}
+.item-details{
+
+    width: 30%;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 25px;
+    box-shadow: 15px 15px 25px gray;
+}
+.item-details h1{
+    margin-top: 10px;
+    font-size: 25px;
+}
+.item-details img{
+    width: 100%;
 }
