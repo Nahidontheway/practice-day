@@ -4,14 +4,16 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .first{
+    background-image: url('assets/shapes/Frame\ 57.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+.first{
     display: flex;
 }
 .second{
     display: flex;
-}
-section .first{
-    background-image: url('assets/shapes/Frame\ 58.jpg');
-    background-size: cover;
 }
 .half-width{
     width: 50%;
